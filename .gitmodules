@@ -1,0 +1,33 @@
+[submodule "bashscripts"]
+	path = bashscripts
+	url = https://github.com/laraxot/bashscripts.git
+[submodule "laravel/Modules/Blog"]
+	path = laravel/Modules/Blog
+	url = https://github.com/laraxot/module_blog.git
+[submodule "laravel/Modules/LU"]
+	path = laravel/Modules/LU
+	url = https://github.com/laraxot/module_lu.git
+[submodule "laravel/Modules/Theme"]
+	path = laravel/Modules/Theme
+	url = https://github.com/laraxot/module_theme.git
+[submodule "laravel/Modules/Xot"]
+	path = laravel/Modules/Xot
+	url = https://github.com/laraxot/module_xot.git
+[submodule "laravel/Modules/Geo"]
+	path = laravel/Modules/Geo
+	url = https://github.com/laraxot/module_geo.git
+[submodule "laravel/Modules/FormX"]
+	path = laravel/Modules/FormX
+	url = https://github.com/laraxot/module_formx.git
+[submodule "laravel/resources/views/themes/adminflu"]
+	path = laravel/resources/views/themes/adminflu
+	url = https://github.com/laraxot/theme_adminflu.git
+[submodule "laravel/resources/views/themes/sb-admin-2-bs4"]
+	path = laravel/resources/views/themes/sb-admin-2-bs4
+	url = https://github.com/laraxot/theme_sb-admin-2-bs4.git
+[submodule "laravel/resources/views/themes/bsitalia"]
+	path = laravel/resources/views/themes/bsitalia
+	url = https://github.com/laraxot/theme_bsitalia
+[submodule "laravel/resources/views/themes/jigsawblog"]
+	path = laravel/resources/views/themes/jigsawblog
+	url = https://github.com/laraxot/theme_jigsawblog.git

@@ -28,3 +28,6 @@
 [submodule "laravel/resources/views/themes/bsitalia"]
 	path = laravel/resources/views/themes/bsitalia
 	url = https://github.com/laraxot/theme_bsitalia
+[submodule "laravel/resources/views/themes/bsitaliadocs"]
+	path = laravel/resources/views/themes/bsitaliadocs
+	url = https://github.com/laraxot/theme_bsitaliadocs.git

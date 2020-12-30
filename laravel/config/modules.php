@@ -1,9 +1,9 @@
 <?php
 
+use Modules\Xot\Services\TenantService;
 use Nwidart\Modules\Activators\FileActivator;
 
 return [
-
     /*
     |--------------------------------------------------------------------------
     | Module Namespace
@@ -26,7 +26,7 @@ return [
 
     'stubs' => [
         'enabled' => false,
-        'path' => base_path() . '/vendor/nwidart/laravel-modules/src/Commands/stubs',
+        'path' => base_path().'/vendor/nwidart/laravel-modules/src/Commands/stubs',
         'files' => [
             'routes/web' => 'Routes/web.php',
             'routes/api' => 'Routes/api.php',
@@ -125,8 +125,65 @@ return [
             'emails' => ['path' => 'Emails', 'generate' => false],
             'notifications' => ['path' => 'Notifications', 'generate' => false],
             'resource' => ['path' => 'Transformers', 'generate' => false],
+            'component-view' => ['path' => 'Resources/views/components', 'generate' => false],
+            'component-class' => ['path' => 'View/Component', 'generate' => false],
         ],
     ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | Package commands
+    |--------------------------------------------------------------------------
+    |
+    | Here you can define which commands will be visible and used in your
+    | application. If for example you don't use some of the commands provided
+    | you can simply comment them out.
+    |
+    */
+    'commands' => [
+        CommandMakeCommand::class,
+        ControllerMakeCommand::class,
+        DisableCommand::class,
+        DumpCommand::class,
+        EnableCommand::class,
+        EventMakeCommand::class,
+        JobMakeCommand::class,
+        ListenerMakeCommand::class,
+        MailMakeCommand::class,
+        MiddlewareMakeCommand::class,
+        NotificationMakeCommand::class,
+        ProviderMakeCommand::class,
+        RouteProviderMakeCommand::class,
+        InstallCommand::class,
+        ListCommand::class,
+        ModuleDeleteCommand::class,
+        ModuleMakeCommand::class,
+        FactoryMakeCommand::class,
+        PolicyMakeCommand::class,
+        RequestMakeCommand::class,
+        RuleMakeCommand::class,
+        MigrateCommand::class,
+        MigrateRefreshCommand::class,
+        MigrateResetCommand::class,
+        MigrateRollbackCommand::class,
+        MigrateStatusCommand::class,
+        MigrationMakeCommand::class,
+        ModelMakeCommand::class,
+        PublishCommand::class,
+        PublishConfigurationCommand::class,
+        PublishMigrationCommand::class,
+        PublishTranslationCommand::class,
+        SeedCommand::class,
+        SeedMakeCommand::class,
+        SetupCommand::class,
+        UnUseCommand::class,
+        UpdateCommand::class,
+        UseCommand::class,
+        ResourceMakeCommand::class,
+        TestMakeCommand::class,
+        LaravelModulesV6Migrator::class,
+    ],
+
     /*
     |--------------------------------------------------------------------------
     | Scan Path
@@ -159,6 +216,9 @@ return [
             'email' => 'n.widart@gmail.com',
         ],
     ],
+
+    'composer-output' => false,
+
     /*
     |--------------------------------------------------------------------------
     | Caching
@@ -181,7 +241,7 @@ return [
     */
     'register' => [
         'translations' => true,
-        /**
+        /*
          * load files on boot or register method
          *
          * Note: boot not compatible with asgardcms
@@ -203,7 +263,8 @@ return [
     'activators' => [
         'file' => [
             'class' => FileActivator::class,
-            'statuses-file' => base_path('modules_statuses.json'),
+            //'statuses-file' => base_path('modules_statuses.json'),
+            'statuses-file' => TenantService::filePath('modules_statuses.json'),
             'cache-key' => 'activator.installed',
             'cache-lifetime' => 604800,
         ],

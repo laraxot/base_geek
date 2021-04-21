@@ -1,0 +1,11 @@
+{
+    "name": "laraxot/base_geek",
+    "type": "project",
+    "authors": [
+        {
+            "name": "marco76tv",
+            "email": "marco.sottana@gmail.com"
+        }
+    ],
+    "require": {}
+}

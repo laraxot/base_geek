@@ -31,3 +31,15 @@
 [submodule "laravel/resources/views/themes/bsitaliadocs"]
 	path = laravel/resources/views/themes/bsitaliadocs
 	url = https://github.com/laraxot/theme_bsitaliadocs.git
+[submodule "laravel/resources/views/themes/prettydocs"]
+	path = laravel/resources/views/themes/prettydocs
+	url = https://github.com/laraxot/theme_prettydocs.git
+[submodule "laravel/resources/views/themes/miniblog"]
+	path = laravel/resources/views/themes/miniblog
+	url = https://github.com/laraxot/theme_miniblog.git
+[submodule "laravel/resources/views/themes/four"]
+	path = laravel/resources/views/themes/four
+	url = https://github.com/laraxot/theme_four.git
+[submodule "laravel/resources/views/themes/zero"]
+	path = laravel/resources/views/themes/zero
+	url = https://github.com/laraxot/theme_zero

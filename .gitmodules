@@ -31,3 +31,6 @@
 [submodule "laravel/resources/views/themes/jigsawblog"]
 	path = laravel/resources/views/themes/jigsawblog
 	url = https://github.com/laraxot/theme_jigsawblog.git
+[submodule "laravel/resources/views/themes/coderdocs"]
+	path = laravel/resources/views/themes/coderdocs
+	url = https://github.com/laraxot/theme_coderdocs.git

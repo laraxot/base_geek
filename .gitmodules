@@ -34,3 +34,9 @@
 [submodule "laravel/resources/views/themes/coderdocs"]
 	path = laravel/resources/views/themes/coderdocs
 	url = https://github.com/laraxot/theme_coderdocs.git
+[submodule "laravel/Modules/Tag"]
+	path = laravel/Modules/Tag
+	url = https://github.com/laraxot/module_tag.git
+[submodule "laravel/Modules/Rating"]
+	path = laravel/Modules/Rating
+	url = https://github.com/laraxot/module_rating.git

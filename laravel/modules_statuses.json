@@ -4,5 +4,7 @@
     "LU": true,
     "Geo": true,
     "FormX": true,
-    "Blog": true
+    "Blog": true,
+    "Rating": true,
+    "Tag": true
 }

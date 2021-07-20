@@ -23,8 +23,9 @@ class Handler extends ExceptionHandler {
         'password',
         'password_confirmation',
     ];
-
+    /*
     public function render($request, Throwable $exception) {
+
         Log::info($exception->getMessage(), [
             'url' => Request::url(),
             'input' => Request::all(),
@@ -39,6 +40,7 @@ class Handler extends ExceptionHandler {
 
         return parent::render($request, $exception);
     }
+    */
 
     /**
      * Register the exception handling callbacks for the application.

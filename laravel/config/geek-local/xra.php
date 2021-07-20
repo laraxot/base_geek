@@ -15,7 +15,7 @@
     'photo' => 'Modules\Blog\Models\Photo',
     'post' => 'Modules\Blog\Models\Post',
     'profile' => 'Modules\Blog\Models\Profile',
-    'tag' => 'Modules\Blog\Models\Tag',
+    'tag' => 'Modules\Tag\Models\Tag',
   ),
   'primary_lang' => 'it',
   'pub_theme' => 'coderdocs',

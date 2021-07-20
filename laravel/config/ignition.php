@@ -10,7 +10,11 @@ return [
     | Choose your preferred editor to use when clicking any edit button.
     |
     | Supported: "phpstorm", "vscode", "vscode-insiders",
+<<<<<<< HEAD
     |            "sublime", "atom", "nova"
+=======
+    |            "sublime", "atom"
+>>>>>>> ad28b6a46af8653f0366d49341ef2a6758da2ee1
     |
     */
 

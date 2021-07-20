@@ -4,5 +4,11 @@
     "LU": true,
     "Geo": true,
     "FormX": true,
+<<<<<<< HEAD
     "Blog": true
+=======
+    "Blog": true,
+    "Rating": true,
+    "Tag": true
+>>>>>>> ad28b6a46af8653f0366d49341ef2a6758da2ee1
 }

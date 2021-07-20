@@ -28,7 +28,6 @@
 [submodule "laravel/resources/views/themes/bsitalia"]
 	path = laravel/resources/views/themes/bsitalia
 	url = https://github.com/laraxot/theme_bsitalia
-<<<<<<< HEAD
 [submodule "laravel/resources/views/themes/bsitaliadocs"]
 	path = laravel/resources/views/themes/bsitaliadocs
 	url = https://github.com/laraxot/theme_bsitaliadocs.git
@@ -44,14 +43,12 @@
 [submodule "laravel/resources/views/themes/zero"]
 	path = laravel/resources/views/themes/zero
 	url = https://github.com/laraxot/theme_zero
-=======
 [submodule "laravel/resources/views/themes/jigsawblog"]
 	path = laravel/resources/views/themes/jigsawblog
 	url = https://github.com/laraxot/theme_jigsawblog.git
 [submodule "laravel/resources/views/themes/coderdocs"]
 	path = laravel/resources/views/themes/coderdocs
 	url = https://github.com/laraxot/theme_coderdocs.git
->>>>>>> ad28b6a46af8653f0366d49341ef2a6758da2ee1
 [submodule "laravel/Modules/Tag"]
 	path = laravel/Modules/Tag
 	url = https://github.com/laraxot/module_tag.git

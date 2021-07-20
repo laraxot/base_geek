@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
+<<<<<<< HEAD
 /**
  * App\Models\User
  *
@@ -33,6 +34,8 @@ use Illuminate\Notifications\Notifiable;
  * @method static \Illuminate\Database\Eloquent\Builder|User whereUpdatedAt($value)
  * @mixin \Eloquent
  */
+=======
+>>>>>>> ad28b6a46af8653f0366d49341ef2a6758da2ee1
 class User extends Authenticatable
 {
     use HasFactory, Notifiable;

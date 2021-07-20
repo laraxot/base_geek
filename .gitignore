@@ -12,4 +12,7 @@ npm-debug.log
 yarn-error.log
 *.lock
 package-lock.json
+<<<<<<< HEAD
 *.phar
+=======
+>>>>>>> ad28b6a46af8653f0366d49341ef2a6758da2ee1

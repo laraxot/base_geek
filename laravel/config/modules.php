@@ -1,9 +1,16 @@
 <?php
 
+<<<<<<< HEAD
 use Modules\Xot\Services\TenantService;
 use Nwidart\Modules\Activators\FileActivator;
 
 return [
+=======
+use Nwidart\Modules\Activators\FileActivator;
+
+return [
+
+>>>>>>> ad28b6a46af8653f0366d49341ef2a6758da2ee1
     /*
     |--------------------------------------------------------------------------
     | Module Namespace
@@ -26,7 +33,11 @@ return [
 
     'stubs' => [
         'enabled' => false,
+<<<<<<< HEAD
         'path' => base_path().'/vendor/nwidart/laravel-modules/src/Commands/stubs',
+=======
+        'path' => base_path() . '/vendor/nwidart/laravel-modules/src/Commands/stubs',
+>>>>>>> ad28b6a46af8653f0366d49341ef2a6758da2ee1
         'files' => [
             'routes/web' => 'Routes/web.php',
             'routes/api' => 'Routes/api.php',
@@ -125,6 +136,7 @@ return [
             'emails' => ['path' => 'Emails', 'generate' => false],
             'notifications' => ['path' => 'Notifications', 'generate' => false],
             'resource' => ['path' => 'Transformers', 'generate' => false],
+<<<<<<< HEAD
             'component-view' => ['path' => 'Resources/views/components', 'generate' => false],
             'component-class' => ['path' => 'View/Component', 'generate' => false],
         ],
@@ -184,6 +196,10 @@ return [
         LaravelModulesV6Migrator::class,
     ],
 
+=======
+        ],
+    ],
+>>>>>>> ad28b6a46af8653f0366d49341ef2a6758da2ee1
     /*
     |--------------------------------------------------------------------------
     | Scan Path
@@ -216,9 +232,12 @@ return [
             'email' => 'n.widart@gmail.com',
         ],
     ],
+<<<<<<< HEAD
 
     'composer-output' => false,
 
+=======
+>>>>>>> ad28b6a46af8653f0366d49341ef2a6758da2ee1
     /*
     |--------------------------------------------------------------------------
     | Caching
@@ -241,7 +260,11 @@ return [
     */
     'register' => [
         'translations' => true,
+<<<<<<< HEAD
         /*
+=======
+        /**
+>>>>>>> ad28b6a46af8653f0366d49341ef2a6758da2ee1
          * load files on boot or register method
          *
          * Note: boot not compatible with asgardcms
@@ -263,8 +286,12 @@ return [
     'activators' => [
         'file' => [
             'class' => FileActivator::class,
+<<<<<<< HEAD
             //'statuses-file' => base_path('modules_statuses.json'),
             'statuses-file' => TenantService::filePath('modules_statuses.json'),
+=======
+            'statuses-file' => base_path('modules_statuses.json'),
+>>>>>>> ad28b6a46af8653f0366d49341ef2a6758da2ee1
             'cache-key' => 'activator.installed',
             'cache-lifetime' => 604800,
         ],

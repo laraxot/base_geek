@@ -1,6 +1,10 @@
 <?php
 
 return [
+<<<<<<< HEAD
+=======
+
+>>>>>>> ad28b6a46af8653f0366d49341ef2a6758da2ee1
     /*
     |--------------------------------------------------------------------------
     | Title
@@ -32,6 +36,10 @@ return [
     |--------------------------------------------------------------------------
     */
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> ad28b6a46af8653f0366d49341ef2a6758da2ee1
     'logo' => [
         'type' => 'icon',
         'icon' => 'pa',
@@ -83,6 +91,10 @@ return [
     */
 
     'auth' => [
+<<<<<<< HEAD
+=======
+
+>>>>>>> ad28b6a46af8653f0366d49341ef2a6758da2ee1
         'login' => [
             'type' => 'route',
             'route' => 'login',
@@ -93,8 +105,15 @@ return [
             'route' => 'logout',
             'method' => 'post',
         ],
+<<<<<<< HEAD
     ],
 
+=======
+
+    ],
+
+
+>>>>>>> ad28b6a46af8653f0366d49341ef2a6758da2ee1
     /*
     |--------------------------------------------------------------------------
     | Additional links
@@ -107,6 +126,10 @@ return [
     */
 
     'routes' => [
+<<<<<<< HEAD
+=======
+
+>>>>>>> ad28b6a46af8653f0366d49341ef2a6758da2ee1
         'home' => [
             'type' => 'url',
             'url' => '#',
@@ -163,6 +186,10 @@ return [
         ],
     ],
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> ad28b6a46af8653f0366d49341ef2a6758da2ee1
     /*
     |--------------------------------------------------------------------------
     | Menu Items
@@ -177,7 +204,11 @@ return [
     | Each menu item should have a text and a URL. A string instead of an array
     | represents a header. The 'can' is a filter on Laravel's built in Gate
     | functionality.
+<<<<<<< HEAD
     |
+=======
+    | 
+>>>>>>> ad28b6a46af8653f0366d49341ef2a6758da2ee1
     | Address and contacts-links can be set to false or null.
     |
     | See details in the readme for configuring dropdowns and megamenus.
@@ -235,7 +266,11 @@ return [
                             'text' => 'Link b',
                         ],
                     ],
+<<<<<<< HEAD
                 ],
+=======
+                ]
+>>>>>>> ad28b6a46af8653f0366d49341ef2a6758da2ee1
             ],
             [
                 'text' => 'Dropdown',
@@ -251,7 +286,11 @@ return [
                         'url' => '/about',
                         'text' => 'About',
                     ],
+<<<<<<< HEAD
                 ],
+=======
+                ]
+>>>>>>> ad28b6a46af8653f0366d49341ef2a6758da2ee1
             ],
         ],
         'footer' => [
@@ -295,7 +334,11 @@ return [
                 'link' => '#',
                 'text' => 'Mappa del sito',
             ],
+<<<<<<< HEAD
         ],
+=======
+        ]
+>>>>>>> ad28b6a46af8653f0366d49341ef2a6758da2ee1
     ],
 
     'address' => '<strong>Comune di Lorem Ipsum</strong><br> Via Roma 0 - 00000 Lorem Ipsum Codice fiscale / P. IVA: 000000000',
@@ -326,8 +369,17 @@ return [
     */
 
     'filters' => [
+<<<<<<< HEAD
         Modules\Theme\Menu\Filters\HrefFilter::class,
         Modules\Theme\Menu\Filters\ActiveFilter::class,
         Modules\Theme\Menu\Filters\GateFilter::class,
     ],
 ];
+=======
+        italia\DesignLaravelTheme\Menu\Filters\HrefFilter::class,
+        italia\DesignLaravelTheme\Menu\Filters\ActiveFilter::class,
+        italia\DesignLaravelTheme\Menu\Filters\GateFilter::class,
+    ],
+
+];
+>>>>>>> ad28b6a46af8653f0366d49341ef2a6758da2ee1

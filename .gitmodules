@@ -49,3 +49,6 @@
 [submodule "laravel/Modules/Rating"]
 	path = laravel/Modules/Rating
 	url = https://github.com/laraxot/module_rating.git
+[submodule "laravel/Modules/Shop"]
+	path = laravel/Modules/Shop
+	url = https://github.com/laraxot/module_shop

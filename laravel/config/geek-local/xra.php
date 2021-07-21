@@ -19,6 +19,8 @@ declare(strict_types=1);
          'post' => 'Modules\Blog\Models\Post',
          'profile' => 'Modules\Blog\Models\Profile',
          'tag' => 'Modules\Tag\Models\Tag',
+         'shop' => 'Modules\Shop\Models\Shop',
+         'product' => 'Modules\Shop\Models\Product',
      ],
      'primary_lang' => 'it',
      'pub_theme' => 'coderdocs',

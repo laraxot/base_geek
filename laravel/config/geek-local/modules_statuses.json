@@ -12,5 +12,8 @@
     "Scraper": true,
     "Ew": true,
     "Meet": true,
-    "Cart": true
+    "Cart": true,
+    "Rating": true,
+    "Shop": true,
+    "Tag": true
 }
